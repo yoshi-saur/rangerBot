@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<title>Ranger</title>
+		
+		<link rel="icon" href="https://cdn.discordapp.com/attachments/753822472163557376/755553951893553252/FACE1.ico">
+		
+		<meta property="og:title" content="Ranger">
+		<meta property="og:image" content="https://cdn.discordapp.com/attachments/753822472163557376/755553771215650917/FACE1.png">
+		<meta property="og:description" content="Ranger is a new Discord bot that doesn't take itself too seriously. Dedicated to the game Quake by id Software, Ranger is themed around the game. While not a big project, it is developed to be used as a way for creating a Quake-themed server.">
+		
+		<style>
+			
+			body {
+				
+				background-image: url(https://cdn.discordapp.com/attachments/736375511768629319/755548193646706879/lava_anim.gif);
+				
+			}
+			
+			p, h1, h2, h3, h4, h5, h6 {
+				
+				text-align: center;
+				color: #ffffff;
+				
+			}
+			
+			.button {
+				display: inline-block;
+				border-radius: 4px;
+				background-color: #533b1b;
+				border: none;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 28px;
+				padding: 20px;
+				width: 200px;
+				transition: all 0.5s;
+				cursor: pointer;
+				margin: 5px;
+			}
+			
+			.button span {
+				cursor: pointer;
+				display: inline-block;
+				position: relative;
+				transition: 0.5s;
+			}
+			
+			.button span:after {
+				content: '\00bb';
+				position: absolute;
+				opacity: 0;
+				top: 0;
+				right: -20px;
+				transition: 0.5s;
+			}
+			
+			.button:hover span {
+				padding-right: 25px;
+			}
+			
+			.button:hover span:after {
+				opacity: 1;
+				right: 0;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<h1><img src="https://cdn.discordapp.com/attachments/736375511768629319/755550701807206470/ranger.png"></h1>
+		<h3>Ranger is a new Discord bot that doesn't take itself too seriously. Dedicated to the game Quake by id Software,<br>Ranger is themed around the game. While not a big project, it is developed to be used as a way for creating<br>a Quake-themed server.</h3>
+		<h1><img src="https://cdn.discordapp.com/attachments/753822472163557376/755553141717598208/rangerDemo.gif"></h1>
+		<h1><button class="button" style="vertical-align:middle" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=749285152605339688&permissions=8&scope=bot';"><span>Invite </span></button></h1>
+		
+	</body>
+	
+</html>
